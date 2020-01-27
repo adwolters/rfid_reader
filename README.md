@@ -8,3 +8,12 @@ This project consists of using a Wiegand RFID Panel to activate and deactivate m
 
 # Wiring schema
 To be added
+
+# Arduino libraries used
+- PubSubClient (mqtt)
+- Wiegand
+- ESP8266 Wifi
+
+# TODO
+- The code is still sent plain text, obviously this is not secure. So next up will be to encrypt this code
+- Only tested with the keypad entry, not actual RFID tags. They are still on their way from China. 
